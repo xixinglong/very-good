@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/animate.min.css"/>
+		<style type="text/css">
+			.animated{
+				width:900px;
+				height: auto;
+				margin: 0 auto;
+			}
+			
+			.row{
+				text-align: center;
+				width:900px;
+				height: 200px;
+				margin: 25px 100px;
+				
+			}
+			.wow{
+				width:200px;
+				height: 200px;
+				border-radius: 50%;
+				float: left;
+				margin-left: 20px;
+				
+			}
+			
+			.red{
+				background: red;
+			}
+			.org{
+				background: orange;
+			}
+			.pk{
+				background: pink;
+			}
+			.zi{
+				background: #41eb79;
+			}
+			.y{
+				background: #efed30;
+			}
+			.b{
+				background: #48c0e7;
+			}
+			.fh{
+				background: #e913c8;
+			}
+			.zs{
+				background: #803ba8;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="animated">
+			<div class="row">
+				<div class="wow red zoomIn"  data-wow-duration="5s"></div>
+		        <div class="wow org zoomInDown" data-wow-delay="5s"></div>
+		        <div class="wow pk zoomInDown" data-wow-delay="5s"></div>
+			</div>
+			<div class="row">
+				<div class="wow zi rubberBand"  data-wow-duration="5s"></div>
+		        <div class="wow y  tada"  data-wow-delay="5s"></div>
+		        <div class="wow fh bounceIn" data-wow-delay="5s"></div>
+			</div>
+			<div class="row">
+				<div class="wow zs flash"  data-wow-duration="5s"></div>
+		        <div class="wow pk pulse" data-wow-delay="5s"></div>
+		        <div class="wow zi wobble" data-wow-delay="5s"></div>
+			</div>
+			<div class="row">
+				<div class="wow y zoomIn"  data-wow-duration="5s"></div>
+		        <div class="wow b zoomInDown" data-wow-delay="5s"></div>
+		        <div class="wow fh zoomInDown" data-wow-delay="5s"></div>
+			</div>
+			<div class="row">
+				<div class="wow zs zoomIn"  data-wow-duration="5s"></div>
+		        <div class="wow y zoomInDown" data-wow-delay="5s"></div>
+		        <div class="wow org zoomInDown" data-wow-delay="5s"></div>
+			</div>
+		</div>
+		
+	</body>
+</html>
+<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+	new WOW().init();
+</script>
